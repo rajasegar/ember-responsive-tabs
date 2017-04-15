@@ -1,13 +1,59 @@
 # ember-responsive-tabs
 
-This README outlines the details of collaborating on this Ember addon.
+Responsive full-width tab component with customizable theme options.
+
+Heavily inspired by this Codrops article:
+https://tympanus.net/codrops/2014/03/21/responsive-full-width-tabs/
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-responsive-tabs`
-* `npm install`
-* `bower install`
+* `ember install ember-responsive-tabs`
+
+
+## Usage
+
+Example markup:
+
+```hbs
+{{#fullwidth-tabs as |tab|}}
+
+  {{#tab.pane title="Home" icon="home"}}
+    <h1>Home</h1>
+    <p>Content for home tab goes here</p>
+  {{/tab.pane}}
+
+  {{#tab.pane title="Profile" icon="profile"}}
+    <h1>Profile</h1>
+    <p>Content for profile tab goes here</p>
+  {{/tab.pane}}
+
+  {{#tab.pane title="Settings" icon="settings"}}
+    <h1>Home</h1>
+    <p>Content for settings tab goes here</p>
+  {{/tab.pane}}
+
+  {{#tab.pane title="Message" icon="message"}}
+    <h1>Home</h1>
+    <p>Content for message tab goes here</p>
+  {{/tab.pane}}
+
+{{/fullwidth-tabs}}
+```
+
+## Customization - Theming
+
+This tab component can be themed using CSS variables to suit the color of your choice.
+Kindly override these variable values in your css file.
+
+For example:
+
+```css
+:root {
+    --tab-primary: #47a3da;  /* Active Color */
+    --tab-secondary: #becbd2; /* Normal Color and Border */
+    --tab-hover: #768e9d; /* Hover Color */
+}
+```
 
 ## Running
 

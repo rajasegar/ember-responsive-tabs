@@ -1,3 +1,8 @@
+:root {
+    --tab-primary: #47a3da;
+    --tab-secondary: #becbd2;
+    --tab-hover: #768e9d;
+}
 .tabs  {
     position: relative;
     width: 100%;
@@ -18,7 +23,7 @@
 }
 
 .tabs nav ul li {
-    border: 1px solid #becbd2;
+    border: 1px solid var(--tab-secondary);
     border-bottom: none;
     margin: 0 0.25em;
     display: block;
@@ -27,8 +32,8 @@
 }
 
 .tabs nav li.tab-current {
-    border: 1px solid #47a3da;
-    box-shadow: inset 0 2px #47a3da;
+    border: 1px solid var(--tab-primary);
+    box-shadow: inset 0 2px var(--tab-primary);
     border-bottom: none;
     z-index: 100;
 }
@@ -40,7 +45,7 @@
 	  right: 100%;
 	  bottom: 0;
 	  width: 1000px;
-	  background: #47a3da;
+	  background: var(--tab-primary);
 }
 
 .tabs nav li.tab-current:after {
@@ -50,7 +55,7 @@
 }
 
 .tabs nav a {
-	  color: #becbd2;
+	  color: var(--tab-secondary);
 	  display: block;
 	  font-size: 1.45em;
 	  line-height: 2.5;
@@ -60,11 +65,11 @@
 }
 
 .tabs nav a:hover {
-	  color: #768e9d;
+	  color: var(--tab-hover);
 }
 
 .tabs nav li.tab-current a {
-	  color: #47a3da;
+	  color: var(--tab-primary);
 }
 
 /* Icons */

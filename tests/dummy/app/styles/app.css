@@ -306,3 +306,9 @@ p.info {
 		    margin: 0;
 	  }
 }
+
+:root {
+    /* --tab-primary: red; */
+    /* --tab-secondary: antiquewhite; */
+    /* --tab-hover: brown; */
+}

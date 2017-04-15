@@ -1,7 +1,7 @@
 import Ember from 'ember';
-import layout from './template';
+import layout from 'ember-responsive-tabs/templates/components/fullwidth-tabs';
 import ComponentParent from 'ember-responsive-tabs/mixins/component-parent';
-import TabPane from 'ember-responsive-tabs/components/fullwidth-tabs/tab-pane/component';
+import TabPane from 'ember-responsive-tabs/components/fullwidth-tabs/tab-pane';
 import listenTo from 'ember-responsive-tabs/utils/listen-to-cp';
 
 const {

@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import layout from './template';
+import layout from 'ember-responsive-tabs/templates/components/fullwidth-tabs/tab-pane';
 import ComponentChild from 'ember-responsive-tabs/mixins/component-child';
 
 const {

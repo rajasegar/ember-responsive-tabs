@@ -1,9 +1,13 @@
 {
   "name": "ember-responsive-tabs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Full-width responsive tab component using Ember.",
   "keywords": [
-      "ember-addon", "tabs", "component", "tab component", "responsive"
+    "ember-addon",
+    "tabs",
+    "component",
+    "tab component",
+    "responsive"
   ],
   "license": "MIT",
   "author": "Rajasegar Chandran",

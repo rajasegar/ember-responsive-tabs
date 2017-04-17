@@ -5,6 +5,10 @@ Responsive full-width tab component with customizable theme options.
 Heavily inspired by this Codrops article:
 https://tympanus.net/codrops/2014/03/21/responsive-full-width-tabs/
 
+## Demo
+
+http://present-quiet.surge.sh/
+
 ## Installation
 
 * `ember install ember-responsive-tabs`

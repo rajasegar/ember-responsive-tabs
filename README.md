@@ -7,13 +7,16 @@
 
 
 Responsive full-width tab component with customizable theme options.
+Icons are provisioned by Font-awesome you need to add font-awesome to your project.
 
-Heavily inspired by this Codrops article:
-https://tympanus.net/codrops/2014/03/21/responsive-full-width-tabs/
+Kindly refer to the dummy app in tests.
+
+Heavily inspired by this [Codrops article](https://tympanus.net/codrops/2014/03/21/responsive-full-width-tabs/)
 
 ## Demo
 
-http://present-quiet.surge.sh/
+[Demo](http://present-quiet.surge.sh/)
+
 
 ## Installation
 
@@ -27,22 +30,22 @@ Example markup:
 ```hbs
 {{#fullwidth-tabs as |tab|}}
 
-  {{#tab.pane title="Home" icon="home"}}
+  {{#tab.pane title="Home" icon="fa fa-home"}}
     <h1>Home</h1>
     <p>Content for home tab goes here</p>
   {{/tab.pane}}
 
-  {{#tab.pane title="Profile" icon="profile"}}
+  {{#tab.pane title="Profile" icon="fa fa-profile"}}
     <h1>Profile</h1>
     <p>Content for profile tab goes here</p>
   {{/tab.pane}}
 
-  {{#tab.pane title="Settings" icon="settings"}}
+  {{#tab.pane title="Settings" icon="fa fa-settings"}}
     <h1>Home</h1>
     <p>Content for settings tab goes here</p>
   {{/tab.pane}}
 
-  {{#tab.pane title="Message" icon="message"}}
+  {{#tab.pane title="Message" icon="fa fa-message"}}
     <h1>Home</h1>
     <p>Content for message tab goes here</p>
   {{/tab.pane}}

@@ -4,9 +4,9 @@
       <li class={{if (eq isActiveId item.elementId) "tab-current" ""}}>
         <a
             href="#{{item.elementId}}"
-            class="icon-{{item.icon}}"
             {{action (action "select" item.elementId)}}
         >
+          <i class="{{item.icon}}"></i>
           <span>{{item.title}}</span>
         </a>
 

@@ -4,6 +4,8 @@
 [![npm](https://img.shields.io/npm/dm/ember-responsive-tabs.svg)](https://www.npmjs.com/package/ember-responsive-tabs)  
 [![npm version](http://img.shields.io/npm/v/ember-responsive-tabs.svg?style=flat)](https://npmjs.org/package/ember-responsive-tabs "View this project on npm")
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[ember-observer-badge]: http://emberobserver.com/badges/ember-responsive-tabs.svg "Ember Observer score"
+[ember-observer-badge-url]: http://emberobserver.com/addons/ember-responsive-tabs
 [![EmberObserver][ember-observer-badge]][ember-observer-badge-url]
 
 

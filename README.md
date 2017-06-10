@@ -4,6 +4,7 @@
 [![npm](https://img.shields.io/npm/dm/ember-responsive-tabs.svg)](https://www.npmjs.com/package/ember-responsive-tabs)  
 [![npm version](http://img.shields.io/npm/v/ember-responsive-tabs.svg?style=flat)](https://npmjs.org/package/ember-responsive-tabs "View this project on npm")
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![EmberObserver][ember-observer-badge]][ember-observer-badge-url]
 
 
 Responsive full-width tab component with customizable theme options.

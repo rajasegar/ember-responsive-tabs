@@ -8,7 +8,7 @@
 
 
 Responsive full-width tab component with customizable theme options.
-Icons are provisioned by Font-awesome you need to add font-awesome to your project.
+Icons are provisioned by *Font-awesome* you need to add font-awesome to your project.
 
 Kindly refer to the dummy app in tests.
 

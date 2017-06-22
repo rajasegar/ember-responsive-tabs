@@ -5,7 +5,6 @@ moduleForComponent('eq', 'helper:eq', {
   integration: true
 });
 
-// Replace this with your real tests.
 test('it renders', function(assert) {
   this.set('inputValue', '1234');
 

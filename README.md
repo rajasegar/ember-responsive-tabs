@@ -1,7 +1,7 @@
 # ember-responsive-tabs
 
 [![Build Status](https://travis-ci.org/rajasegar/ember-responsive-tabs.svg?branch=master)](https://travis-ci.org/rajasegar/ember-responsive-tabs) 
-[![npm](https://img.shields.io/npm/dm/ember-responsive-tabs.svg)](https://www.npmjs.com/package/ember-responsive-tabs)  
+[![npm](https://img.shields.io/npm/dm/ember-responsive-tabs.svg)](https://www.npmjs.com/package/ember-responsive-tabs)
 [![npm version](http://img.shields.io/npm/v/ember-responsive-tabs.svg?style=flat)](https://npmjs.org/package/ember-responsive-tabs "View this project on npm")
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![EmberObserver](http://emberobserver.com/badges/ember-responsive-tabs.svg?branch=master)](http://emberobserver.com/addons/ember-responsive-tabs)

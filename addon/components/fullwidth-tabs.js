@@ -11,8 +11,12 @@ const {
 
 
 export default Ember.Component.extend(ComponentParent, {
+    isOpen: false,
     layout,
     classNames:['tabs'],
+    classNameBindings: [
+      'isOpen:tabs-open'
+    ],
 
     childPanes: computed.filter('children', function(view) {
         return view instanceof TabPane;
@@ -40,7 +44,8 @@ export default Ember.Component.extend(ComponentParent, {
 
     actions: {
         select(id) {
-            this.set('isActiveId', id);
+          this.set('isOpen', this.get('isActiveId') === id && !this.get('isOpen'));
+          this.set('isActiveId', id);
         }
     }
 });

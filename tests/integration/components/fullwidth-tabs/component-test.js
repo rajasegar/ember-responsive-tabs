@@ -12,11 +12,11 @@ function assertActiveTab(assert, tabIndex, active = true) {
   assert.equal(this.$(`.content section:nth-child(${tabIndex + 1})`)[0].classList.contains('content-current'), active, active ? 'tab pane is active' : 'tab pane is inactive');
 }
 
-test('it renders', function(assert) {
+test('it renders', async function(assert) {
 
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });
-  this.render(hbs`{{#fullwidth-tabs as |tab|}}
+  await this.render(hbs`{{#fullwidth-tabs as |tab|}}
   {{#tab.pane elementId="tabHome" title="Home"}}
     <h1>Home</h1>
   {{/tab.pane}}
@@ -39,8 +39,8 @@ test('it renders', function(assert) {
 
 });
 
-test('it generates tab navigation', function(assert) {
-  this.render(hbs`{{#fullwidth-tabs as |tab|}}
+test('it generates tab navigation', async function(assert) {
+  await this.render(hbs`{{#fullwidth-tabs as |tab|}}
   {{#tab.pane title="Home"}}
     <h1>Home</h1>
   {{/tab.pane}}

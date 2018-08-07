@@ -1,12 +1,9 @@
-import Ember from 'ember';
-
-const {
-    A,
-    run
-} = Ember;
+import Mixin from '@ember/object/mixin';
+import { A } from '@ember/array';
+import { next } from '@ember/runloop';
 
 
-export default Ember.Mixin.create({
+export default Mixin.create({
     children: null,
 
     init() {
@@ -15,7 +12,7 @@ export default Ember.Mixin.create({
     },
 
     registerChild(child) {
-        run.schedule('sync', this, function() {
+        next(this, function() {
             this.get('children').addObject(child);
         });
     },

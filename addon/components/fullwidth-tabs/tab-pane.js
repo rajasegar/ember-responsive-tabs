@@ -1,15 +1,11 @@
-import Ember from 'ember';
+import Component from '@ember/component';
+import { observer, computed } from '@ember/object';
+import { scheduleOnce } from '@ember/runloop';
 import layout from 'ember-responsive-tabs/templates/components/fullwidth-tabs/tab-pane';
 import ComponentChild from 'ember-responsive-tabs/mixins/component-child';
 
-const {
-    computed,
-    observer,
-    run: { scheduleOnce }
-} = Ember;
 
-
-export default Ember.Component.extend(ComponentChild, {
+export default Component.extend(ComponentChild, {
     layout,
     classNameBindings: ['contentCurrent'],
 

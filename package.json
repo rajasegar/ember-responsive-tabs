@@ -1,6 +1,6 @@
 {
   "name": "ember-responsive-tabs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Full-width responsive tab component using Ember.",
   "keywords": [
     "ember-addon",

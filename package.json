@@ -52,6 +52,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "http://present-quiet.surge.sh/"
+    "demoURL": "https://rajasegar.github.io/ember-responsive-tabs/"
   }
 }

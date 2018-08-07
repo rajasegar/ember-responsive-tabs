@@ -15,7 +15,7 @@ Heavily inspired by this [Codrops article](https://tympanus.net/codrops/2014/03/
 
 ## Demo
 
-[Demo](http://present-quiet.surge.sh/)
+[Demo](https://rajasegar.github.io/ember-responsive-tabs/)
 
 
 ## Installation

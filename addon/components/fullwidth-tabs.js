@@ -8,8 +8,13 @@ import TabPane from 'ember-responsive-tabs/components/fullwidth-tabs/tab-pane';
 
 
 export default Component.extend(ComponentParent, {
+
     layout,
+    isOpen: false,
     classNames:['tabs'],
+    classNameBindings: [
+      'isOpen:tabs-open'
+    ],
 
     childPanes: filter('children', function(view) {
         return view instanceof TabPane;
@@ -37,7 +42,8 @@ export default Component.extend(ComponentParent, {
 
     actions: {
         select(id) {
-            this.set('isActiveId', id);
+          this.set('isOpen', this.get('isActiveId') === id && !this.get('isOpen'));
+          this.set('isActiveId', id);
         }
     }
 });
